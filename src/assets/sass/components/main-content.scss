@@ -1,0 +1,78 @@
+.container-o {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.hero {
+    height: 90vh;
+    position: relative;
+    @include media-breakpoint-up(sm) {
+        height: 100vh;
+    }
+    .video-hero {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        video {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .vid-hero-bg {
+        background: rgba(0,0,0,0.3);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
+.testimonials {
+    margin-top: 150px;
+}
+
+.citation {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.oak-svg {
+    margin-top: 150px;
+    width: 215px;
+    height: 76px;
+    margin-bottom: 20px;
+    @include media-breakpoint-up(sm) {
+        width: 292px;
+        height: 103px;
+    }
+    @include media-breakpoint-up(md) {
+        width: 315px;
+        height: 111px;
+        margin-top: 40px;
+    }
+}
+
+.opo {
+    opacity: 0;
+    transition: 750ms ease-in-out all;
+    &.fader {
+        opacity: 1;
+    }
+    outline: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.thankyou {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}

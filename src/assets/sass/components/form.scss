@@ -1,0 +1,34 @@
+form {
+    margin-top: 50px;
+    input, textarea {
+        display: block;
+        width: 100%;
+        background: none;
+        border: none;
+        border-bottom: 1px solid $color-primary;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 16px;
+        color: $color-primary;
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid darken($color: $color-primary, $amount: 20);
+        }
+    }
+    textarea {
+        height: 200px;
+    }
+    .submit {
+        display: inline-block;
+        width: auto;
+        border: 1px solid $color-primary;
+        color: $color-primary;
+        padding: 16px 40px;
+        font-size: 16px;
+        margin-top: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

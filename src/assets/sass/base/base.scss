@@ -1,0 +1,49 @@
+/*------------------*
+# Base
+*------------------*/
+
+html {
+    box-sizing: border-box;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: 1.5;
+    overflow-y: scroll;
+    min-height: 100%;
+    word-wrap: break-word;
+}
+
+* {
+    &,
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    background: black;
+    color: $color-primary;
+}
+
+.container-o {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.spacer {
+    padding-top: 150px;
+    padding-bottom: 150px;   
+}
+
+.spacer-title {
+    margin-top: 0px;
+    @include media-breakpoint-up(sm) {
+        margin-top: 60px;
+    }
+}

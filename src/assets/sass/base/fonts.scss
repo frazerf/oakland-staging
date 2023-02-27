@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@font-face {
+  font-family: "hkgrotesk-regular";
+  src: url("../fonts/hkgrotesk-regular-webfont.woff2") format("woff2"),
+    url("../fonts/hkgrotesk-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hkgrotesk-medium";
+  src: url("../fonts/hkgrotesk-medium-webfont.woff2") format("woff2"),
+    url("../fonts/hkgrotesk-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hkgrotesk-bold";
+  src: url("../fonts/hkgrotesk-bold-webfont.woff2") format("woff2"),
+    url("../fonts/hkgrotesk-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acumin Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Acumin-RPro.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Acumin Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Acumin-BdPro.woff") format("woff");
+}
+
+@font-face {font-family: "Avenir Next Ultra Light";
+  src: url("../fonts/ave.eot"); /* IE9*/
+  src: url("../fonts/ave.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/ave.woff2") format("woff2"), /* chrome firefox */
+  url("../fonts/ave.woff") format("woff"), /* chrome firefox */
+  url("../fonts/ave.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("../fonts/ave.svg#Avenir Next Ultra Light") format("svg"); /* iOS 4.1- */
+}
